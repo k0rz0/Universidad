@@ -19,8 +19,6 @@ public class Main {
         curso.setEstudiante3(estudiante3);
         curso.setDocente(docente);
 
-
-        System.out.println("");
     }
 
     private static Estudiante crearEstudiante(String nombre, int edad, String correo, int semestre, double nota1, double nota2, double nota3) {
