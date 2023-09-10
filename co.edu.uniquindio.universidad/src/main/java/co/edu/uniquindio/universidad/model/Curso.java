@@ -92,4 +92,11 @@ public class Curso {
     public void setDocente(Docente docente) {
         this.docente = docente;
     }
+
+    public double obtenerPromedioCurso(){
+        double promedio = (getEstudiante1().promedioNotas() + getEstudiante2().promedioNotas() + getEstudiante3().promedioNotas())/3;
+
+        return  promedio;
+    }
+
 }

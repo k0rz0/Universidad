@@ -80,7 +80,11 @@ public class Estudiante {
         this.nota3 = nota3;
     }
 
-    public static double promediarNotas(double nota1, double nota2, double nota3){
-        return (nota1+nota2+nota3)/3;
+    public static double promediarNotas(double nota1, double nota2, double nota3) {
+        return (nota1 + nota2 + nota3) / 3;
+    }
+
+    public double promedioNotas(){
+        return (getNota1() + getNota2() + getNota3())/3;
     }
 }
